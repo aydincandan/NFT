@@ -1,6 +1,6 @@
 const mongoose=require("mongoose")
-
-mongoose.connect("mongodb+srv://omerozturk:e9zTPcyOh6hRMDdl@cluster1.2isleds.mongodb.net/")
+const dbkey=process.env.PRIVATE_KEY;
+mongoose.connect(dbkey)
 .then(()=>{
     console.log("Connected to MongoDB")
 })
