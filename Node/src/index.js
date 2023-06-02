@@ -4,7 +4,7 @@ require('dotenv').config();
 const path=require('path');
 const hbs=require('hbs');
 const collection=require('./mongodb');
-const templatePath=path.join(__dirname,'../templates')
+const templatePath=path.join(__dirname,'../../front/src/components/templates')
 
 console.log(process.env);
 
@@ -21,6 +21,13 @@ app.get("/",(req,res)=>{
 })
 app.get("/signup",(req,res)=>{
     res.render("signup");
+})
+
+app.get("",(req,res)=>{
+    res.render("signup");
+})
+app.get("/data",(req,res)=>{
+    res.render("data");
 })
 
 
@@ -61,6 +68,6 @@ app.post("/login",async(req,res)=>{
 
 
 
-app.listen(3000,()=>{
+app.listen(3001,()=>{
     console.log('server is connected.');
 })
