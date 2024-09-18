@@ -1,0 +1,195 @@
+
+C:\ops2\zilli3nodemailer\NFTfork\NFT\front>npm audit report
+# npm audit report
+
+@adobe/css-tools  <=4.3.1
+Severity: moderate
+@adobe/css-tools Regular Expression Denial of Service (ReDOS) while Parsing CSS - https://github.com/advisories/GHSA-hpx4-r86g-5jrg
+@adobe/css-tools Improper Input Validation and Inefficient Regular Expression Complexity - https://github.com/advisories/GHSA-prr3-c3m5-p7q2
+fix available via `npm audit fix`
+node_modules/@adobe/css-tools
+
+@babel/traverse  <7.23.2
+Severity: critical
+Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code - https://github.com/advisories/GHSA-67hx-6x53-jw92
+fix available via `npm audit fix`
+node_modules/@babel/traverse
+
+body-parser  <1.20.3
+Severity: high
+body-parser vulnerable to denial of service when url encoding is enabled - https://github.com/advisories/GHSA-qwcr-r2fm-qrc7
+fix available via `npm audit fix`
+node_modules/body-parser
+  express  <=4.19.2 || 5.0.0-alpha.1 - 5.0.0-beta.3
+  Depends on vulnerable versions of body-parser
+  Depends on vulnerable versions of path-to-regexp
+  Depends on vulnerable versions of send
+  Depends on vulnerable versions of serve-static
+  node_modules/express
+
+braces  <3.0.3
+Severity: high
+Uncontrolled resource consumption in braces - https://github.com/advisories/GHSA-grv7-fg5c-xmjg
+fix available via `npm audit fix`
+node_modules/braces
+
+ejs  <3.1.10
+Severity: moderate
+ejs lacks certain pollution protection - https://github.com/advisories/GHSA-ghr5-ch3p-vcr6
+fix available via `npm audit fix`
+node_modules/ejs
+
+es5-ext  0.10.1 - 0.10.62
+es5-ext vulnerable to Regular Expression Denial of Service in `function#copy` and `function#toStringTokens` - https://github.com/advisories/GHSA-4gmj-3p3h-gm8h
+fix available via `npm audit fix`
+node_modules/es5-ext
+
+
+follow-redirects  <=1.15.5
+Severity: moderate
+Follow Redirects improperly handles URLs in the url.parse() function - https://github.com/advisories/GHSA-jchw-25xp-jwwc
+follow-redirects' Proxy-Authorization header kept across hosts - https://github.com/advisories/GHSA-cxjh-pqwp-8mfpfix available via `npm audit fix`
+node_modules/follow-redirects
+
+lodash.setwith  *
+Severity: high
+Prototype Pollution in lodash - https://github.com/advisories/GHSA-p6mc-m468-83gw
+fix available via `npm audit fix --force`
+Will install api@6.1.2, which is a breaking change
+node_modules/lodash.setwith
+  api  5.0.0-beta.0 - 6.1.1 || 7.0.0-alpha.0 - 7.0.0-beta.5
+  Depends on vulnerable versions of lodash.setwith
+  node_modules/api
+
+micromatch  <4.0.8
+Severity: moderate
+Regular Expression Denial of Service (ReDoS) in micromatch - https://github.com/advisories/GHSA-952p-6rrq-rcjv    
+fix available via `npm audit fix`
+node_modules/micromatch
+
+nth-check  <2.0.1
+Severity: high
+Inefficient Regular Expression Complexity in nth-check - https://github.com/advisories/GHSA-rp65-9cf3-cjxr        
+fix available via `npm audit fix --force`
+Will install react-scripts@3.0.1, which is a breaking change
+node_modules/svgo/node_modules/nth-check
+  css-select  <=3.1.0
+  Depends on vulnerable versions of nth-check
+  node_modules/svgo/node_modules/css-select
+    svgo  1.0.0 - 1.3.2
+    Depends on vulnerable versions of css-select
+    node_modules/svgo
+      @svgr/plugin-svgo  <=5.5.0
+      Depends on vulnerable versions of svgo
+      node_modules/@svgr/plugin-svgo
+        @svgr/webpack  4.0.0 - 5.5.0
+        Depends on vulnerable versions of @svgr/plugin-svgo
+        node_modules/@svgr/webpack
+          react-scripts  >=2.1.4
+          Depends on vulnerable versions of @svgr/webpack
+          Depends on vulnerable versions of resolve-url-loader
+          node_modules/react-scripts
+
+path-to-regexp  <=0.1.9 || 0.2.0 - 1.8.0 || 4.0.0 - 6.2.2
+Severity: high
+path-to-regexp outputs backtracking regular expressions - https://github.com/advisories/GHSA-9wv6-86v2-598j       
+path-to-regexp outputs backtracking regular expressions - https://github.com/advisories/GHSA-9wv6-86v2-598j       
+path-to-regexp outputs backtracking regular expressions - https://github.com/advisories/GHSA-9wv6-86v2-598j       
+fix available via `npm audit fix`
+node_modules/oas/node_modules/path-to-regexp
+node_modules/path-to-regexp
+node_modules/react-router/node_modules/path-to-regexp
+
+postcss  <8.4.31
+Severity: moderate
+PostCSS line return parsing error - https://github.com/advisories/GHSA-7fh5-64p2-3v2j
+fix available via `npm audit fix --force`
+Will install react-scripts@3.0.1, which is a breaking change
+node_modules/postcss
+node_modules/resolve-url-loader/node_modules/postcss
+  resolve-url-loader  0.0.1-experiment-postcss || 3.0.0-alpha.1 - 4.0.0
+  Depends on vulnerable versions of postcss
+  node_modules/resolve-url-loader
+
+semver  <=5.7.1 || 6.0.0 - 6.3.0 || 7.0.0 - 7.5.1
+Severity: high
+semver vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-c2qf-rxjj-qqgw     
+semver vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-c2qf-rxjj-qqgw     
+semver vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-c2qf-rxjj-qqgw     
+fix available via `npm audit fix --force`
+Will install nodemon@3.1.5, which is a breaking change
+node_modules/@babel/core/node_modules/semver
+node_modules/@babel/eslint-parser/node_modules/semver
+node_modules/@babel/helper-compilation-targets/node_modules/semver
+node_modules/@babel/helper-create-class-features-plugin/node_modules/semver
+node_modules/@babel/helper-create-regexp-features-plugin/node_modules/semver
+node_modules/@babel/helper-define-polyfill-provider/node_modules/semver
+node_modules/@babel/plugin-transform-runtime/node_modules/semver
+node_modules/@babel/preset-env/node_modules/semver
+node_modules/babel-plugin-polyfill-corejs2/node_modules/semver
+node_modules/eslint-plugin-import/node_modules/semver
+node_modules/eslint-plugin-jsx-a11y/node_modules/semver
+node_modules/eslint-plugin-react/node_modules/semver
+node_modules/istanbul-lib-instrument/node_modules/semver
+node_modules/make-dir/node_modules/semver
+node_modules/nodemon/node_modules/semver
+node_modules/semver
+node_modules/simple-update-notifier/node_modules/semver
+  simple-update-notifier  1.0.7 - 1.1.0
+  Depends on vulnerable versions of semver
+  node_modules/simple-update-notifier
+    nodemon  2.0.19 - 2.0.22
+    Depends on vulnerable versions of simple-update-notifier
+    node_modules/nodemon
+
+send  <0.19.0
+Severity: moderate
+send vulnerable to template injection that can lead to XSS - https://github.com/advisories/GHSA-m6fv-jmcg-4jfg    
+fix available via `npm audit fix`
+node_modules/send
+  serve-static  <=1.16.0
+  Depends on vulnerable versions of send
+  node_modules/serve-static
+
+
+tough-cookie  <4.1.3
+Severity: moderate
+tough-cookie Prototype Pollution vulnerability - https://github.com/advisories/GHSA-72xf-g2v4-qvf3
+fix available via `npm audit fix`
+node_modules/tough-cookie
+
+webpack  5.0.0-alpha.0 - 5.93.0
+Severity: moderate
+Webpack's AutoPublicPathRuntimeModule has a DOM Clobbering Gadget that leads to XSS - https://github.com/advisories/GHSA-4vvj-4cpr-p986
+fix available via `npm audit fix`
+node_modules/webpack
+
+webpack-dev-middleware  <=5.3.3
+Severity: high
+Path traversal in webpack-dev-middleware - https://github.com/advisories/GHSA-wr3j-pwj9-hqq6
+fix available via `npm audit fix`
+node_modules/webpack-dev-middleware
+
+word-wrap  <1.2.4
+Severity: moderate
+word-wrap vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-j8xg-fqg3-53r7  
+fix available via `npm audit fix`
+node_modules/word-wrap
+
+ws  7.0.0 - 7.5.9 || 8.0.0 - 8.17.0
+Severity: high
+ws affected by a DoS when handling a request with many HTTP headers - https://github.com/advisories/GHSA-3h5v-q93c-6h6q
+ws affected by a DoS when handling a request with many HTTP headers - https://github.com/advisories/GHSA-3h5v-q93c-6h6q
+fix available via `npm audit fix`
+node_modules/webpack-dev-server/node_modules/ws
+node_modules/ws
+
+30 vulnerabilities (1 low, 11 moderate, 17 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+C:\ops2\zilli3nodemailer\NFTfork\NFT\front>
